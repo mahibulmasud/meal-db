@@ -7,7 +7,7 @@ function MDetails(props) {
 
   return (
     <div className='container'>
-        <img src={mealinfo.strMealThumb} className="w-50" alt="" />
+        <img src={mealinfo.strMealThumb} style={{width:'100%', height:'500px', objectFit:'cover' }} alt="" />
         <p>country: {mealinfo.strArea}</p>
         <p>Catagory: {mealinfo.strCategory}</p>
         <p>strIngredient list below</p>
